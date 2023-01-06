@@ -18,3 +18,7 @@ export default {
   }
 }
 </script>
+
+<style>
+@import url('https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@0ac23ca/css/all.css');
+</style>

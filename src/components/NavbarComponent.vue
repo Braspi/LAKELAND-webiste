@@ -1,13 +1,24 @@
 <template>
     <header>
-        <div class="logo">
-            <router-link to="/">
-                <img src="@/assets/icon/logo/lakeland-round.png" alt="">
-            </router-link>
-        </div>
-        <div class="status-player" v-if="server">
-            <div :class="server.isOnline ? 'online' : 'offline'"></div>
-            <span> {{server.online}}/{{server.maxOnline}} </span>
+        <div class="nav-bar">
+          <div class="logo">
+              <router-link to="/">
+                  <img src="@/assets/icon/logo/lakeland-round.png" alt="">
+              </router-link>
+          </div>
+          <div class="status" v-if="server">
+            <h3 class="server-status-container">
+                  <div :class="server.isOnline ? 'online' : 'offline'"></div>
+                  <span v-html="server.isOnline ? `${server.online}` : '-/-'"></span>
+                  <p> graczy</p>
+            </h3>
+          </div>
+          <div class="links">
+              <router-link to="/">Strona Główna</router-link>
+              <router-link to="/">O nas</router-link>
+              <router-link to="/">Regulamin</router-link>
+              <router-link to="/">Sklep</router-link>
+          </div>
         </div>
     </header>
 </template>

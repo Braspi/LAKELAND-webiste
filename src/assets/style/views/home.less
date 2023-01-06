@@ -1,0 +1,113 @@
+@import "../global.less";
+
+main {
+    width: 90vw;
+}
+
+
+// top
+
+.top-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .parent {
+        display: flex;
+        > div {
+            padding-top: 75px;
+            margin: 10px;
+            width: 600px;
+        }
+        .div1 {
+            padding-top: 165px;
+            min-height: 100px;
+            background-image: url('/src/assets/icon/logo/blur-color.png');
+            height: 400px;
+            h1 {
+                color: @color-text; 
+                font-size: 48px;
+                line-height: 2.5rem; 
+                font-weight: 900; 
+                line-height: 1.25; 
+            }
+            h3 {
+                color: @color-text; 
+                font-size: 34px;
+                line-height: 2.5rem; 
+                font-weight: 900; 
+                background: linear-gradient(90deg,#86ff10,#d3ff55);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-transform: uppercase;
+            }
+            hr {
+                margin-top: 26px;
+                margin-bottom: 2.5rem; 
+                height: 1px;
+                border: none;
+                background-color: #333;
+            }
+            .bottom-info {
+                display: flex; 
+                margin-bottom: 3rem; 
+                flex-direction: column; 
+                justify-content: center;                  
+                .icon {
+                    display: flex;
+                    margin-bottom: 1.5rem; 
+                    color: @color-text; 
+                    justify-content: left; 
+                    align-items: center; 
+                    .icon-in {
+                        display: flex; 
+                        margin-right: 1.25rem; 
+                        background-color: #26222c; 
+                        --bg-opacity: 0.5; 
+                        flex-shrink: 0; 
+                        justify-content: center; 
+                        align-items: center; 
+                        width: 3.5rem; 
+                        height: 3.5rem; 
+                        border-radius: 0.75rem;  
+                        border: #2e2c38 solid 1px;
+                    }
+                }
+            }
+            .btn-primary {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                border-radius: .75rem;
+                padding: 1.25rem 2.25rem;
+                font-size: .875rem;
+                line-height: 1.25rem;
+                font-weight: 500;
+                text-transform: uppercase;
+                --tw-text-opacity: 1;
+                color: rgb(255 255 255/var(--tw-text-opacity));
+                transition-timing-function: cubic-bezier(.4,0,.2,1);
+                transition-duration: .15s;
+                background: linear-gradient(270deg,#86ff10 0,#d3ff55);
+                overflow: hidden;
+                z-index: 10;
+                color: @color-black;
+              }
+              .btn-top > * {
+                display: inline-block;
+              }
+              .btn-top a {
+                margin-left: 20px;
+              }
+        }
+
+        .div2 {
+            min-height: 100px;
+            img {
+                height: 65%;
+                text-align: left;
+            }
+        }
+    }
+}
