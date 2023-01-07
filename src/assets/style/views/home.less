@@ -101,6 +101,7 @@ main {
               }
               .btn-top a {
                 margin-left: 20px;
+                text-decoration: none;
               }
         }
 
@@ -204,12 +205,16 @@ main {
                 background-repeat: no-repeat; 
                 background-position: center;
                 z-index: 20;
+                text-decoration: none;
             }
             .btn-sel {
                 margin-top: 20px;
                 height: 20px;
                 display: flex;
                 margin-left: 165px;
+            }
+            a {
+                text-decoration: none;
             }
         }
     }
@@ -220,4 +225,121 @@ main {
         justify-content: center;
         flex-wrap: wrap;
     }
+    // last-buyers:
+    .last-buyers {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem; 
+        border-top-width: 1px; 
+        border-bottom-width: 1px; 
+        hr {
+            height: 1px;
+            border: none;
+            background-color: #2e2c38;
+        }
+        .buyers {
+            display: flex; 
+            padding-left: 1.25rem;
+            padding-right: 1.25rem; 
+            margin-left: auto;
+            margin-right: auto; 
+            flex-wrap: wrap-reverse; 
+            justify-content: center; 
+            align-items: center; 
+            max-width: 80rem; 
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .template-buyers {
+                display: flex; 
+                flex-wrap: wrap; 
+                justify-content: center; 
+                align-items: center; 
+                padding-right: 1.25rem;
+                img {
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 0.375rem; 
+                } 
+
+            }
+        }
+        .last-recharge {
+            display: flex; 
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem; 
+            margin-left: 0.5rem; 
+            color: #ffffff; 
+            align-items: center; 
+            border-left: #2e2c38 solid 1px;
+            .icon-recharge {
+                display: flex; 
+                background-color: #26222c; 
+                flex-shrink: 0;
+                justify-content: center; 
+                align-items: center; 
+                border-radius: 0.375rem; 
+                width: 48px;
+                height: 48px;
+                border: #2e2c38 solid 1px;
+                margin-left: 30px;
+            }
+            span {
+                margin-left: 1rem;
+                max-width: 80px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+// Administration Lake-land.pl
+
+.team {
+    .team-pos {
+        display: grid; 
+        padding-left: 1.25rem;
+        padding-right: 1.25rem; 
+        padding-top: 6rem;
+        padding-bottom: 6rem; 
+        margin-left: auto;
+        margin-right: auto; 
+        max-width: 80rem; 
+        grid-template-columns: repeat(1, minmax(0, 1fr)); 
+        .team-container {
+            margin-bottom: 3rem; 
+            span {
+                display: block; 
+                margin-bottom: 0.75rem; 
+                font-weight: 500; 
+                text-transform: uppercase; 
+                background: linear-gradient(90deg,#86ff10,#d3ff55);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            h5 {
+                margin-bottom: 1.75rem; 
+                color: #ffffff; 
+                font-size: 1.875rem;
+                line-height: 2.25rem; 
+                font-weight: 700; 
+                letter-spacing: 0.025em; 
+                line-height: 1.25; 
+                max-width: 28rem;
+            }
+            p {
+                color: #74737a; 
+                font-size: 0.875rem;
+                line-height: 1.25rem; 
+                letter-spacing: 0.025em; 
+                line-height: 1.5rem; 
+                max-width: 24rem; 
+            }
+        }
+    }
+}
+
+// Social Media
+
+.social {
+    position: relative; 
+    background-color: @background-second;
 }

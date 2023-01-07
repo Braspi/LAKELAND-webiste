@@ -21,7 +21,9 @@
               </div>
             </div>
             <div class="btn-top">
-              <input type="button" name="" id="" value="SERWER Discord" class="btn-primary">
+              <a href="https://dc.lake-land.pl">
+                <input type="button" name="" id="" value="SERWER Discord" class="btn-primary">
+              </a>
               <a href="" class="btn-secondary">SKLEP</a>
             </div>
           </div>
@@ -43,12 +45,32 @@
                 <h2>{{ server.name }}</h2>
                 <h3>Kliknij, aby wybrać serwer</h3>
                 <hr/>
-              <div class="img-sel" :style="`background-image: url(${server.imageUrl})`"></div>
+                <div class="img-sel" :style="`background-image: url(${server.imageUrl})`"></div>
                 <router-link :to="`/shop/${server.id}`">
                   <button class="btn-secondary btn-sel">Wybierz</button>
                 </router-link>
               </div> 
             </div>
+          </div>
+        </div>
+        <div class="last-buyers">
+            <div class="buyers">
+              <div class="template-buyers" v-for="buyer in lastBuyers" :key="buyer.id">
+                <img :src="`https://minotar.net/helm/${buyer.nickname}/100.png`" alt="">
+              </div>
+              <div class="last-recharge">
+                  <div class="icon-recharge"></div>
+                  <span>Ostatnie doładowania</span>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="team-pos">
+          <div class="team-container">
+            <span>Administracja Serwera</span>
+            <h5>Poznaj naszą ekipę!</h5>
+            <p>Administracja, która codziennie poświęca godziny, aby pilnować porządku i odpowiadać na wasze pytania.</p>
           </div>
         </div>
       </section>
@@ -62,12 +84,18 @@ import axios from 'axios';
 export default {
   data() {
     return {
-      servers: []
+      servers: [],
+      lastBuyers: []
     }
   },
   created() {
     axios.get('/servers').then(response => {
         this.servers = response.data
+        response.data.forEach(element => {
+          axios.get(`/servers/${element.id}/last_buyers`).then(response => {
+            this.lastBuyers = this.lastBuyers.concat(response.data);
+          });
+        });
     }).catch(error => {
         console.log('ERROR API WIKTOR')
         console.log(error.response)
