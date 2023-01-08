@@ -13,9 +13,9 @@
                 <hr/>
                 <div class="img-sel" :style="`background-image: url(${product.imageUrl})`"></div>
                 <div>
-                    <router-link to="">
-                  <button class="btn-secondary btn-sel">Wybierz</button>
-                    </router-link>
+                  <router-link :to="`/shop/${product.server.id}/product/${product.id}`">
+                    <button class="btn-secondary btn-sel">Wybierz</button>
+                  </router-link>
                 </div>
                 </div> 
             </div>

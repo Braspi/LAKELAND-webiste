@@ -9,7 +9,7 @@
             <div class="bottom-info">
               <div class="icon">
                 <span class="icon-in">
-                  <i class="fa-solid fa-globe"></i>
+                  <i class="fas fa-arrow-right"></i>
                 </span>
                 <span>Administracja o dużym doświadczeniu dbająca o porządek i kulturę</span>
               </div>
