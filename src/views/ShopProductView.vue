@@ -9,11 +9,13 @@
             <div class="template-shop" v-for="product in products" :key="product.id">
                 <div>
                     <h2>{{ product.name }}</h2>
-                    <h3>Kliknij, aby wybrać serwer</h3>
+                    <h3>Kliknij, aby wybrać produkt</h3>
                 <hr/>
                 <div class="img-sel" :style="`background-image: url(${product.imageUrl})`"></div>
                 <div>
-                    <button class="btn-secondary btn-sel">Wybierz</button>
+                    <router-link to="">
+                  <button class="btn-secondary btn-sel">Wybierz</button>
+                    </router-link>
                 </div>
                 </div> 
             </div>
