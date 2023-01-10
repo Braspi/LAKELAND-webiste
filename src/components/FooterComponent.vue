@@ -13,7 +13,7 @@
             </div>
             <div class="mojang">
                 <p>PL: Serwer LAKE-LAND.PL nie jest powiązany z firmą Mojang. Wszystkie środki ze sklepu są przekazywane na utrzymanie i rozwój serwera.</p>
-                <p>EN: The IRONAGE.PL server is in no way affiliated with Mojang, AB. Nor should it be considered a company endorsed by Mojang, AB.</p>
+                <p>EN: The LAKE-LAND.PL server is in no way affiliated with Mojang, AB. Nor should it be considered a company endorsed by Mojang, AB.</p>
             </div>
             <div class="copyright">
                 <span>© Lake-Land.pl 2023. All rights reserved</span>

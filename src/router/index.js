@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ShopProductView from '../views/ShopProductView.vue'
 import ShopProductBuyView from '../views/ShopProductBuyView.vue'
 import TransactionStatusView from '@/views/TransactionStatusView.vue'
+import RulesView from '@/views/RulesView.vue'
 
 const routes = [
   {
@@ -27,6 +28,11 @@ const routes = [
         path: 'transaction',
         name: 'TransactionView',
         component: TransactionStatusView
+      },
+      {
+        path: 'regulamin',
+        name: 'RulesView',
+        component: RulesView
       }
     ]
   }

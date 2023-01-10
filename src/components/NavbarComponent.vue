@@ -16,7 +16,7 @@
           <div class="links">
               <router-link to="/">Strona Główna</router-link>
               <router-link to="/">O nas</router-link>
-              <router-link to="/">Regulamin</router-link>
+              <router-link to="/regulamin">Regulamin</router-link>
               <router-link to="/">Sklep</router-link>
           </div>
         </div>
