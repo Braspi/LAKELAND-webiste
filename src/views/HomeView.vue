@@ -9,13 +9,13 @@
             <div class="bottom-info">
               <div class="icon">
                 <span class="icon-in">
-                  <i class="fas fa-arrow-right"></i>
+                  <font-awesome-icon icon="fa-solid fa-arrow-right" />
                 </span>
                 <span>Administracja o dużym doświadczeniu dbająca o porządek i kulturę</span>
               </div>
               <div class="icon">
                 <span class="icon-in">
-                  <i class="fa-solid fa-globe"></i>
+                  <font-awesome-icon icon="fa-solid fa-globe" />
                 </span>
                 <span>Wysoka jakość rozgrywki oraz płynność w grze!</span>
               </div>
