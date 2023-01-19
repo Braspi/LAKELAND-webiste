@@ -14,12 +14,15 @@
                             <hr>
                             <img :src="product.imageUrl" alt="" class="img-left">
                         </div>
+                        <div class="description github-markdown-body">
+                            <span v-html="formated" class="description-span"></span>
+                        </div>
                     </div>
                 </div> 
                 <div class="div2"> 
                     <div class="buy-section">
                         <div>
-                            <h2>Item name</h2>
+                            <h2>Wykonaj płatność</h2>
                             <hr>
                         </div>
                         <div class="btn-sel-method">
@@ -67,6 +70,7 @@
 <script>
 import axios from 'axios';
 import { useToast } from "vue-toastification";
+import { marked } from 'marked';
 
 export default {
   data() {
@@ -75,12 +79,17 @@ export default {
       nickname: null,
       email: null,
       selectedPaymentGateway: null,
-      sliderValue: 1
+      sliderValue: 1,
+      formated: null
     }
   },
   created() {
     axios.get(`/products/${this.$route.params.productId}`).then(response => {
         this.product = response.data
+        this.formated = marked(response.data.description)
+        if(this.product.slider){
+        this.sliderValue = this.product.slider.min
+        }
     }).catch(error => {
         console.log('ERROR API WIKTOR')
         console.log(error.response)
@@ -110,5 +119,4 @@ export default {
 
 </script>
 
-<style scoped src="@/assets/style/views/home.less" lang="less"></style>
 <style scoped src="@/assets/style/views/shopProductBuy.less" lang="less"></style>

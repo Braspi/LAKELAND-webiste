@@ -60,7 +60,7 @@
               </div>
               <div class="last-recharge">
                   <div class="icon-recharge"><font-awesome-icon icon="fa-solid fa-tag" /></div>
-                  <span>Ostatnie doładowania</span>
+                  <span>Ostatnie zakupy</span>
                 </div>
             </div>
         </div>
