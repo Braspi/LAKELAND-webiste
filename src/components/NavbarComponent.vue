@@ -6,13 +6,13 @@
                   <img src="@/assets/icon/logo/lakeland-round.png" alt="">
               </router-link>
           </div>
-          <div class="status" v-if="server">
+          <!-- <div class="status" v-if="server">
             <h3 class="server-status-container">
                   <div :class="server.isOnline ? 'online' : 'offline'"></div>
                   <span v-html="server.isOnline ? `${server.online}` : '-/-'"></span>
                   <p> graczy</p>
             </h3>
-          </div>
+          </div> -->
           <div class="links">
               <router-link to="/">Strona Główna</router-link>
               <a href="#onas">O nas</a>
