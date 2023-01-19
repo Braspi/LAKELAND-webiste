@@ -23,12 +23,23 @@
                             <hr>
                         </div>
                         <div class="btn-sel-method">
-                            <div class="method" v-for="price in product.prices" :key="price.id">
+                            <template v-for="price in product.prices" :key="price.id" >
+                                <div class="method" v-if="price.price > 0.00">
                                 <label>
                                     <input type="radio" :value="price.gateway" v-model="selectedPaymentGateway">
                                     <span class="method-operator">{{ price.payment.name }}</span>
                                 </label>
-                                <span class="text-price">{{ price.price }} zł</span>
+                                <span class="text-price">{{ (price.price * this.sliderValue).toFixed(2) }} zł</span>
+                            </div>
+                            </template>
+                                <div class="method">
+                                <label>
+                                    <input type="range" :min="product.slider.min" :max="product.slider.max" v-model="sliderValue" >
+                                </label>
+                                <span class="text-price">
+                                    {{ sliderValue }}
+                                    <span class="method-operator">{{ product.slider.name }}</span>
+                                </span>
                             </div>
                             <div class="nick-mail">
                                 <div>
@@ -63,7 +74,8 @@ export default {
       product: null,
       nickname: null,
       email: null,
-      selectedPaymentGateway: null
+      selectedPaymentGateway: null,
+      sliderValue: 1
     }
   },
   created() {
@@ -81,7 +93,7 @@ export default {
                 nickname: this.nickname,
                 email: this.email,
                 method: this.selectedPaymentGateway,
-                count: 1
+                count: parseInt(this.sliderValue)
             }).then(response => {
                 window.location.replace(response.data.url)
             }).catch(error => {

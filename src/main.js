@@ -8,12 +8,12 @@ import Toast from "vue-toastification";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faArrowRight, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faGlobe, faPeopleRobbery, faTag } from '@fortawesome/free-solid-svg-icons';
 
 
-library.add( faArrowRight, faGlobe )
+library.add( faArrowRight, faGlobe, faPeopleRobbery, faTag )
 
-axios.defaults.baseURL = 'https://api-v4.yshop.pl/shops/6'
+axios.defaults.baseURL = 'https://api-v4.yshop.pl/shops/14'
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)

@@ -99,9 +99,11 @@ main {
               .btn-top > * {
                 display: inline-block;
               }
-              .btn-top a {
-                margin-left: 20px;
+              .btn-top a{
                 text-decoration: none;
+                &:last-of-type {
+                    margin-left: 20px;
+                }
               }
         }
 
@@ -111,6 +113,9 @@ main {
                 height: 65%;
                 text-align: left;
                 height: 700px;
+                @media (max-width: @sizes[mobile]) {
+                    display: none;
+                }
             }
         }
     }

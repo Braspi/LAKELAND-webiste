@@ -19,7 +19,6 @@
                 <span>© Lake-Land.pl 2023. All rights reserved</span>
                 <span>Development by ycode.ovh</span>
             </div>
-
         </div>
     </section>
 </template>

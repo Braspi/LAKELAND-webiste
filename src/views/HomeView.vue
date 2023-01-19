@@ -9,7 +9,7 @@
             <div class="bottom-info">
               <div class="icon">
                 <span class="icon-in">
-                  <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                  <font-awesome-icon icon="fa-solid fa-people-robbery" />
                 </span>
                 <span>Administracja o dużym doświadczeniu dbająca o porządek i kulturę</span>
               </div>
@@ -24,7 +24,7 @@
               <a href="https://dc.lake-land.pl">
                 <input type="button" name="" id="" value="SERWER Discord" class="btn-primary">
               </a>
-              <a href="" class="btn-secondary">SKLEP</a>
+              <a href="#shop" class="btn-secondary">SKLEP</a>
             </div>
           </div>
           <div class="div2">
@@ -32,7 +32,7 @@
           </div>
         </div> 
       </section>
-      <section class="shop">
+      <section class="shop" id="shop">
         <div class="shop-select">
           <div class="title">
             <span class="shop-title">Sklep</span>
@@ -59,13 +59,13 @@
                 <img :src="`https://minotar.net/helm/${buyer.nickname}/100.png`" alt="">
               </div>
               <div class="last-recharge">
-                  <div class="icon-recharge"></div>
+                  <div class="icon-recharge"><font-awesome-icon icon="fa-solid fa-tag" /></div>
                   <span>Ostatnie doładowania</span>
                 </div>
             </div>
         </div>
       </section>
-      <section class="team">
+      <section class="team" id="onas">
         <div class="team-pos">
           <div class="team-container">
             <span>Administracja Serwera</span>

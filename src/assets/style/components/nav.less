@@ -14,12 +14,14 @@
   display: flex;
   justify-content: space-around;
   padding: 20px;
-
     > * {
       margin: auto;
     }
     .logo {
       width: 15%;
+      @media (max-width: @sizes[mobile]) {
+        margin-left: auto;
+      }
     }
     .status{
       width: 15%;
@@ -55,7 +57,9 @@
             animation: ease;
           }
        }
-
+      @media (max-width: @sizes[mobile]) {
+        display: none;
+      }
     }
     img {
       height: 70px;
