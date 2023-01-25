@@ -10,7 +10,7 @@
             <p>§1 Definicje</p>
             <p>1.1 Regulamin - określa wewnętrzne zasady postępowania i życia serwisu.</p>
             <p>1.2 Serwis – sieć serwerów gier i usług "lake-land.pl"</p>
-            <p>1.3 Właściciel – oznacza właściciela "lake-land.pl" czyli Kamil Kłusek prowadzący działalność gospodarczą jednoosobową zarejestrowaną w Polsce pod nazwą Kamil Kłusek keymiloEnterPrises, posiadający: adres miejsca wykonywania działalności i adres do doręczeń: JURCZYŃSKIEGO 10, MIASTO: 92-306 ŁÓDŹ, TELEFON: (+48) 516607200, EMAIL: KONTAKT.TWOCASTLE@GMAIL.COM</p>
+            <p>1.3 WŁAŚCICIEL – OZNACZA WŁAŚCICIELA "Lake-Land.pl" CZYLI KAMIL KŁUSEK PROWADZĄCY DZIAŁALNOŚĆ GOSPODARCZĄ JEDNOOSOBOWĄ ZAREJESTROWANĄ W POLSCE POD NAZWĄ KAMIL KŁUSEK KEYMILOENTERPRISES (NIP: 7282869800, REGON: 524191738) POSIADAJĄCY: ADRES MIEJSCA WYKONYWANIA DZIAŁALNOŚCI I ADRES DO DORĘCZEŃ: JURCZYŃSKIEGO 10, MIASTO: 92-306 ŁÓDŹ, TELEFON: (+48) 516607200, EMAIL: KONTAKT.TWOCASTLE@GMAIL.COM</p>
             <p>1.4 Dostawca Płatności - CashBill S.A. z siedzibą w Katowicach, przy ul. Sobieskiego 2 (NIP: 6292410801, REGON: 241048572, KRS: 0000323297), Usługa realizowana jest na potrzeby m.in. Serwisu</p>
             <p>1.5 Usługa - oznacza usługę świadczoną przez Właściciela poprzez Serwis. Do wykonania usługi wymagane jest posiadanie klienta gry Minecraft i konto na serwerze gry wieloosobowej.</p>
             <p>1.6 Klient - osoba fizyczna korzystająca z Sklepu Serwerowego, która dokonuje płatności poprzez płatności PaySafeCard, Blik, Przelew, PayPal.</p>
