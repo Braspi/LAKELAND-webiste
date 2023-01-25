@@ -9,16 +9,16 @@
         <div class="reg">
             <p>§1 Definicje</p>
             <p>1.1 Regulamin - określa wewnętrzne zasady postępowania i życia serwisu.</p>
-            <p>1.2 Serwis – sieć serwerów gier i usług "DOMENA.pl"</p>
-            <p>1.3 Właściciel – oznacza właściciela "DOMENA.pl" czyli Kamil Kłusek prowadzący działalność gospodarczą jednoosobową zarejestrowaną w Polsce pod nazwą Kamil Kłusek keymiloEnterPrises, posiadający: adres miejsca wykonywania działalności i adres do doręczeń: JURCZYŃSKIEGO 10, MIASTO: 92-306 ŁÓDŹ, TELEFON: (+48) 516607200, EMAIL: KONTAKT.TWOCASTLE@GMAIL.COM</p>
+            <p>1.2 Serwis – sieć serwerów gier i usług "lake-land.pl"</p>
+            <p>1.3 Właściciel – oznacza właściciela "VejpBox.eu" czyli Kamil Kłusek prowadzący działalność gospodarczą jednoosobową zarejestrowaną w Polsce pod nazwą Kamil Kłusek keymiloEnterPrises, posiadający: adres miejsca wykonywania działalności i adres do doręczeń: JURCZYŃSKIEGO 10, MIASTO: 92-306 ŁÓDŹ, TELEFON: (+48) 516607200, EMAIL: KONTAKT.TWOCASTLE@GMAIL.COM</p>
             <p>1.4 Dostawca Płatności - CashBill S.A. z siedzibą w Katowicach, przy ul. Sobieskiego 2 (NIP: 6292410801, REGON: 241048572, KRS: 0000323297), Usługa realizowana jest na potrzeby m.in. Serwisu</p>
             <p>1.5 Usługa - oznacza usługę świadczoną przez Właściciela poprzez Serwis. Do wykonania usługi wymagane jest posiadanie klienta gry Minecraft i konto na serwerze gry wieloosobowej.</p>
             <p>1.6 Klient - osoba fizyczna korzystająca z Sklepu Serwerowego, która dokonuje płatności poprzez płatności PaySafeCard, Blik, Przelew, PayPal.</p>
-            <p>1.7 Serwer gry - sieć serwerów dedykowanych pozwalających na grę wieloosobową w kliencie gry Minecraft znajdujących się pod domeną "DOMENA.pl"</p>
+            <p>1.7 Serwer gry - sieć serwerów dedykowanych pozwalających na grę wieloosobową w kliencie gry Minecraft znajdujących się pod domeną "lake-land.pl"</p>
             <p>1.8 Minecraft - komputerowa gra survivalowa o otwartym świecie stworzona przez Markusa Perssona i rozwijana przez studio Mojang AB.</p>
             <p>1.9 PaySafeCard(w skrócie PSC)- elektroniczna metoda płatności przeznaczona głównie do użytku w sklepach internetowych i bazująca na systemie pre-paid.</p>
             <p>1.10 Przelew - forma pieniężnego rozliczenia bezgotówkowych.</p>
-            <p>1.11 Użytkownik - osoba korzystająca z serwisu DOMENA.pl.</p>
+            <p>1.11 Użytkownik - osoba korzystająca z serwisu lake-land.pl.</p>
             <p>1.12 Multikonto - posiadanie dwóch lub więcej profili przez tego samego użytkownika.</p>
             <p>1.13 Blokada konta - zablokowanie dostępu danego użytkownika do Serwisu.</p>
             <p>1.14 Administracja - oznacza osoby pełniące funkcje administracyjne w Serwisie.</p>
