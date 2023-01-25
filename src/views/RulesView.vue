@@ -5,7 +5,55 @@
             <h2>Płatności</h2>
             <hr/>
         </div>
+        <!-- PSC CashBill -->
         <div class="reg">
+            <p>§1 Definicje</p>
+            <p>1.1 Regulamin - określa wewnętrzne zasady postępowania i życia serwisu.</p>
+            <p>1.2 Serwis – sieć serwerów gier i usług "DOMENA.pl"</p>
+            <p>1.3 Właściciel – oznacza właściciela "DOMENA.pl" czyli Kamil Kłusek prowadzący działalność gospodarczą jednoosobową zarejestrowaną w Polsce pod nazwą Kamil Kłusek keymiloEnterPrises, posiadający: adres miejsca wykonywania działalności i adres do doręczeń: JURCZYŃSKIEGO 10, MIASTO: 92-306 ŁÓDŹ, TELEFON: (+48) 516607200, EMAIL: KONTAKT.TWOCASTLE@GMAIL.COM</p>
+            <p>1.4 Dostawca Płatności - CashBill S.A. z siedzibą w Katowicach, przy ul. Sobieskiego 2 (NIP: 6292410801, REGON: 241048572, KRS: 0000323297), Usługa realizowana jest na potrzeby m.in. Serwisu</p>
+            <p>1.5 Usługa - oznacza usługę świadczoną przez Właściciela poprzez Serwis. Do wykonania usługi wymagane jest posiadanie klienta gry Minecraft i konto na serwerze gry wieloosobowej.</p>
+            <p>1.6 Klient - osoba fizyczna korzystająca z Sklepu Serwerowego, która dokonuje płatności poprzez płatności PaySafeCard, Blik, Przelew, PayPal.</p>
+            <p>1.7 Serwer gry - sieć serwerów dedykowanych pozwalających na grę wieloosobową w kliencie gry Minecraft znajdujących się pod domeną "DOMENA.pl"</p>
+            <p>1.8 Minecraft - komputerowa gra survivalowa o otwartym świecie stworzona przez Markusa Perssona i rozwijana przez studio Mojang AB.</p>
+            <p>1.9 PaySafeCard(w skrócie PSC)- elektroniczna metoda płatności przeznaczona głównie do użytku w sklepach internetowych i bazująca na systemie pre-paid.</p>
+            <p>1.10 Przelew - forma pieniężnego rozliczenia bezgotówkowych.</p>
+            <p>1.11 Użytkownik - osoba korzystająca z serwisu DOMENA.pl.</p>
+            <p>1.12 Multikonto - posiadanie dwóch lub więcej profili przez tego samego użytkownika.</p>
+            <p>1.13 Blokada konta - zablokowanie dostępu danego użytkownika do Serwisu.</p>
+            <p>1.14 Administracja - oznacza osoby pełniące funkcje administracyjne w Serwisie.</p>
+            <p>1.15 Czat Serwerowy – oznacza czat w grze Minecraft/Discord.</p>
+            <p>1.16 Serwer Discord - serwer służący do rozmów głosowych i komunikacji za pomocą wiadomości tekstowych, ze zdjęciami oraz filmami.</p>
+            <p>§2 Postanowienia ogólne</p>
+            <p>2.1 Nieprzestrzeganie regulaminu serwisu wiąże się z otrzymaniem kary.</p>
+            <p>2.2 Każdy Użytkownik korzystający z serwisu lub rejestrujący się w serwerze gier akceptuję regulamin.</p>
+            <p>2.3 Administracja zastrzega sobie prawo do:</p>
+            <p>2.3.1. Usuwania niechcianych treści;</p>
+            <p>2.3.2. Karania za zachowania nieodpowiednie, które nie znajdą się w regulaminie uznając je za niestosowne;</p>
+            <p>2.3.3. Zmian w regulaminie serwisu.</p>
+            <p>2.4 Administracja może usunąć dowolne treści, budowle, tereny, konto bez rekompensaty oraz bez podania przyczyn.</p>
+            <p>2.5. Użytkownik wyraża nieodwołalną zgodę na dożywotnie korzystanie z budowli serwerowych przez Właściciela.</p>
+            <p>2.6 Wyraża nieodwołalną zgodę na dożywotnie rozpowszechnianie opublikowanych przez siebie treści w Serwisie.</p>
+            <p>2.7 Blokada konta może być rozszerzona przez Administrację na wszystkie usługi serwisu i komunikator Discord.</p>
+            <p>2.8 Administracja w wyjątkowych sytuacjach może nałożyć Blokadę konta bez możliwości odwołania się.</p>
+            <p>2.9 Skargi o oszustwo (np. Podczas handlu) będą tylko rozpatrywane po pokazaniu dowodów (np. Materiał wideo, zrzuty ekranu).</p>
+            <p>2.10 Niedozwolone jest rozpowszechnianie danych osobowych Użytkowników i Administracji serwisu DOMENA.pl</p>
+            <p>2.11 Wszelkie kary/Blokady konta są rozpatrywane indywidualnie przez administrację a wysokość kary jest wyznaczana według ich opinii.</p>
+            <p>§3 Rejestracja i zasady korzystania</p>
+            <p>3.1 Użytkownik może posiadać tylko 2 konta. W przypadku, gdy na danym adresie IP gra więcej niż 2 użytkowników, powinien zgłosić ten fakt Administracji w celu umożliwienia rozgrywki.</p>
+            <p>3.2 Rejestracja w Serwisie jest darmowa.</p>
+            <p>3.3 Zabronione jest:</p>
+            <p>3.3.1 korzystanie z MultiKonta;</p>
+            <p>3.3.2 używanie nazw konta wulgarnych, obraźliwych, zawierające nieodpowiednie treści, flood, nazwy grup administracyjnych oraz o treści nazistowskiej;</p>
+            <p>3.3.3 korzystanie z cudzego konta bez zgody właściciela;</p>
+            <p>3.3.4 używanie skinów które zawierają w sobie treści nieodpowiednie (np. wulgarne, nazistowskie);</p>
+            <p>3.3.5 Podszywanie się pod graczy, Youtuberów oraz administrację;</p>
+            <p>3.3.6 rejestrowanie nazw kont premium, jeżeli nie jest się właścicielem tego konta. Takie konta mogą być usuwane lub oddawane właścicielowi.</p>
+            <p>3.4 Użytkownik posiadający problemy z rejestracją lub logowaniem na koncie powinien zgłosić się do Administracji na Serwerze Discord w sekcji 📪︱stwórz-ticket</p>
+            <p>3.4 Surowo zakazane jest handel kontami, przedmiotami z Serwisu za realne pieniądze.</p>
+        </div>
+        <!-- HOTPAY -->
+        <!-- <div class="reg">
             <p>1. DEFINICJE </p>
             <p>1.1 LAKE-LAND.pl - PRYWATNY SERWER GRY KOMPUTEROWEJ MINECRAFT UDSTĘPNIONY INNYM GRACZOM W INTERNECIE ORAZ STRONA INTERNETOWA O ADRESIE HTTP://TOWCASTLE.PL</p>
             <p>1.2 HOTPAY - HTTPS://HOTPAY.PL - INTERNETOWY SERWIS USŁUGOWY, W KTÓRYM KLIENT MOŻE DOKONAĆ PŁATNOŚCI NA RZECZ DOMENA.PL ZA POŚREDNICTWEM STRONY INTERNETOWEJ.</p>
@@ -27,7 +75,7 @@
             <p>3.3 WSZYSTKIE WIRTUALNE BUDOWLE ORAZ POMYSŁY WYKORZYSTANE NA SERWERZE / DLA SERWERA LUB AKTUALNIE SĄ UŻYWANE NA SERWERZE SĄ WŁASNOŚCIĄ SERWERA I NIKOMU, KTO TWORZYŁ TĄ ZAWARTOŚĆ, NIE PRZYSŁUGUJĄ ZWROTY / REKOMPENSATY.</p>
             <p>3.4 KAŻDY UŻYTKOWNIK SERWERA JEST OBOWIĄZANY DO ZAPOZNANIA SIĘ Z NINIEJSZYM REGULAMINEM I STOSOWANIA SIĘ DO PRZEWIDZIANYCH W NIM REGULACJI.</p>
             <p>3.5 WŁAŚCICIEL SERWISU: KAMIL KŁUSEK, ADRES: JURCZYŃSKIEGO 10, MIASTO: 92-306 ŁÓDŹ, TELEFON: (+48) 516607200, EMAIL: KONTAKT.TWOCASTLE@GMAIL.COM</p>
-        </div>
+        </div> -->
         <div class="title">
             <span class="shop-title">Polityka</span>
             <h2>Prywatności</h2>
